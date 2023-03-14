@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+
+body {
+    font-family: "Quicksand";
+    overflow-x: hidden;
+    text-align: center;
+}
+
+#title {
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-item {
+    margin-right: 3rem;
+}
+
+.left {
+    transition: 0.3s ease;
+    text-decoration: none;
+    border-left: 1px dashed #3fa46b00;
+    border-bottom: 1px dashed #3fa46b00;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.left:hover {
+    border-bottom: 1px dashed #ff20c7;
+    border-left: 1px dashed #ff20c7;
+}
+
+.middle {
+    transition: 0.3s ease;
+    text-decoration: none;
+    border-bottom: 1px dashed #3fa46b00;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.middle:hover {
+    border-bottom: 1px dashed #ff20c7;
+}
+
+.right {
+    transition: 0.3s ease;
+    text-decoration: none;
+    border-right: 1px dashed #3fa46b00;
+    border-bottom: 1px dashed #3fa46b00;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.right:hover {
+    border-bottom: 1px dashed #ff20c7;
+    border-right: 1px dashed #ff20c7;
+}
+
+.heading-row {
+    text-align: left;
+    margin-top: 10rem;
+    padding-left: 5%;
+}
+
+.big-heading {
+    font-size: 7rem;
+    font-weight: 100;
+    color: white;
+    /* margin-left: 5rem;
+    margin-top: 10rem; */
+}
+
+.explore {
+    transition: 0.3s ease;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    padding-left: 2%;
+    margin-top: 3rem;
+    text-decoration: none;
+}
+
+.explore:hover {
+    color: #ff20c7;
+}
+
+.explore2 {
+    transition: 0.3s ease;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    margin-left: 30rem;
+    text-decoration: none;
+}
+
+.explore2:hover {
+    color: #ff20c7;
+}
+
+.scroll {
+    transition: 0.3s ease;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    padding-left: 1%;
+    text-decoration: none;
+}
+
+.scroll:hover {
+    color: #ff20c7;
+}
+
+.blur-in {
+    animation:blur-in 1s linear both} @keyframes blur-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1};
+}
+
+.blur-out{animation:blur-out 1s linear both} @keyframes blur-out{0%{filter:blur(.01px);}100%{filter:blur(12px);opacity:0}}
+
+.form {
+    width: 100%;
+    margin: auto;
+}
+
+.begin {
+    font-family: "Orbitron";
+    width: 25%;
+    margin: auto;
+    margin-top: 5rem;
+    color:rgb(255, 32, 222);
+    border: none;
+}
+
+.begin:hover {
+    background-color: rgba(255, 32, 222, 0);
+    color: white;
+    border-color: rgba(255, 32, 222, 0);
+}
+
+#second {
+    height: 100vh;
+    background-color: rgb(35, 33, 57);
+}
+
+.login {
+    width: 30%;
+    top: 45px;
+    left: 10px;
+}
+
+.answer {
+    background-color: rgba(255, 255, 255, 0.516);
+}
+
+.answer:focus {
+    background-color: rgba(255, 255, 255, 0.516);
+}
+
+#download {
+    background-color: rgb(35, 33, 57);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#second {
+    background-color: rgb(35, 33, 57);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.ctf-title {
+    font-size: 4.5rem;
+    border-bottom: 2px solid rgb(255, 32, 222);
+    width: 55%;
+    margin: auto;
+}
+
+.instruction-box {
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+
+.instruction-box h3{
+    width: 40%;
+    height: 17%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.317);
+    margin-top: 2rem;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 8px;
+}
+
+#double-line {
+    height: 25%;
+}
+
+.pinkness {
+    color:rgb(255, 32, 222);
+}
+
+.download-button {
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 2rem;
+    background-color: rgb(255, 32, 222);
+    border-color: rgb(255, 32, 222);
+}
+
+.download-button:hover {
+    background-color: rgb(205, 26, 178);
+    border-color: rgb(205, 26, 178);
+}
+
+.download-button:focus {
+    background-color: rgb(205, 26, 178);
+    border-color: rgb(205, 26, 178);
+}
+
+.form-control:focus {
+    border-color: rgb(255, 32, 222);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 80px rgb(205, 26, 178);
+}
+
+input {
+    caret-color: rgb(255, 32, 222);
+}
+
+.answer-title {
+    margin-bottom: 3%;
+}
