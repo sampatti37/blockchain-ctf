@@ -1,0 +1,31 @@
+blockchain project idea:
+
+PRE-CTF SETUP: Recommend a download of virtual box and kali or some other distro of linux to complete ctf on.
+
+Easy Level:
+Web thing to download all the required files and stuff for follow on stuff
+
+SETUP: Have bash script that runs that sets permissions to everything and sets passwords to all directories that is the flag from previous challenge. Have that script call another script that removes the original one.
+
+Mid levels: Crypto, networking (tcpdump and wireshark analysis)
+get a from address, get a nonce
+
+hard level: Binary Exploit (level 04 64-bit)
+Have to input all info from previous levels into a hidden function in order to get
+a to address as the flag.
+
+Insane level: Binary Exploit (return to libC)
+Execute code to return to libC and execute /bin/sh to get a reverse shell as root. 
+Then have access to the get the flag from txt file with root:root permissions
+which is a private key
+
+Reward level:
+Call a smart contract that asks for the private key and if provided, the winner
+can enter their actual wallet address and recieve like an NFT or goreli eth or
+something like that. We can create an nft project or own coin or something like that
+
+
+WEBSITE IDEA: Talked about loans and undercollatoralized loans. We could list a bunch of transactions for loans
+have them look thru all of them and find out some type of information (which loan is undercollatoralized, 
+when they would be able to come in and liquidate the loan etc) and once they get that, they can enter it
+into a form and unlock the file downloads
