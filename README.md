@@ -3,14 +3,16 @@
 Start here: https://blockchain-ctf.netlify.app/
 
 ## TODO:
-- edit paths and everything for new about_us file
+- edit paths and everything for new about_us file (Sam)
 
-- finish ZK level
+- finish ZK level (Sam)
 
-- maybe add another EVM level
+- maybe add another EVM level (Sam?)
 
-- Finish rentrancy attack level
+- Finish rentrancy attack level (Ethan)
 
-- finish Luke level
+- finish Luke level (Luke)
 
-- bash setup script
+- bash setup script (Sam)
+
+- NFT Final level (?)
