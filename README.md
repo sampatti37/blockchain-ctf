@@ -3,7 +3,7 @@
 Start here: https://blockchain-ctf.netlify.app/
 
 ## TODO:
-- edit paths and everything for new about_us file (Sam)
+- edit paths and everything for new about_us file (Sam) DONE
 
 - finish ZK level (Sam)
   
