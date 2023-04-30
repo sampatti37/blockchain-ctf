@@ -9,7 +9,7 @@ Start here: https://blockchain-ctf.netlify.app/
   
    take x previous values from CTF (web level and something else) and provide a circuit (txt file) that takes the two required inputs and output and generates a proof.json and public.json. Have them edit one of the jsons to make it valid.
 
-- maybe add another EVM level (Sam?)
+- maybe add another EVM level (Sam?) DONE
 
 - Finish rentrancy attack level (Ethan)
 
