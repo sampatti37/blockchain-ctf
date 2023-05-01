@@ -1,0 +1,9 @@
+In this level you are given 7 total files and your goal is to construct a valid Zero Knowledge proof setup. The file permissions should be set up but if you cannot execute the "verify" binary, simply run: sudo chmod +x verify Start with the input.json file. These are the values that are being input to the zero knowledge circuit. The circuit, located in circuit.circom, contains the contraints for the proof, or what you are trying to prove. You have two goals here. 
+
+First, there are three "???" in the circuit.circom file. You must replace those with the correct inputs so that the line stays in this format:
+
+name <== name * name;
+
+SPACES, TABS, AND ; ARE IMPORTANT!!!! Make sure the ONLY thing you change are the "???". KEEP ALL SPACING AS IS. If you believe you have it right and are not getting the answer, the punctionation matters, as described, and the order of the names matter.
+
+Second, you must fill in the values in the public.json file. All four inputs will be integers inside the double quotes (""). Again, order matters here. 
