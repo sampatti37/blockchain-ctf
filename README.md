@@ -1,4 +1,4 @@
-# blockchain-ctf
+# Blockchain CTF CSCI 5240
 
 ## Start here: https://blockchain-ctf.netlify.app/
 
