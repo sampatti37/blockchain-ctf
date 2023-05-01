@@ -1,18 +1,13 @@
 # blockchain-ctf
 
-Start here: https://blockchain-ctf.netlify.app/
+## Start here: https://blockchain-ctf.netlify.app/
 
-## TODO:
-- edit paths and everything for new about_us file (Sam) DONE
+## Instructions
 
-- finish ZK level (Sam) DONE
+Start at the web level and follow the instructions there.
 
-- maybe add another EVM level (Sam?) DONE
+After downloading the CTF, unzip it either in a linux machine or on the terminal at: https://coding.csel.io/
 
-- Finish rentrancy attack level (Ethan)
+Read each README or instruction pdf on how to complete that level and get your flag.
 
-- finish Luke level (Luke)
-
-- bash setup script (Sam) IN PROGRESS
-
-- NFT Final level (?)
+Submit all your flags to the smart contract from the final level to get your Buff Token!
